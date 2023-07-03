@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- ----------Chamada do Googlefonts---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- ----------Chamada do font-awesome---------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintech</title>
+    <!-- ----------Chamada do Bootstrap---------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- ----------Chamada do CSS---------- -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary display-flex">
+            <div class="container-fluid">
+                <h1><a class="navbar-brand fs-1" href="#">CashClick</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-2 mx-5" href="#"><i class="fa-solid fa-house me-2"
+                                    style="color: #1167b1;"></i>Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid mt-5">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 simular">
+                <h1>Acesse sua conta</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fs-2">CNPJ</label>
+                        <input type="number" class="form-control form-control-lg campo" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu CNPJ ">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label fs-2">Senha</label>
+                        <input type="password" class="form-control form-control-lg mb-5 campo" id="exampleInputPassword1" placeholder="Insira sua senha">
+                    </div>
+                    <button type="button" class="btn btn-outline-primary btn-lg me-5"><i class="fa-solid fa-arrow-left fs-3 me-2"></i>Voltar</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg"><i
+                        class="fa-solid fa-arrow-right-to-bracket fs-3 me-2"></i>Entrar</button>
+                </form>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="../images/Security-amico.png" alt="Imagem para representar a segurança" class="img-fluid">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------Chamada do Bootstrap---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
